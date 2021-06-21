@@ -1,0 +1,10 @@
+assignment:
+  application:
+    fetchSchedulerTime: 60000 #milliseconds
+    bitcoinUrl: https://api.coindesk.com/v1/bpi/currentprice/USD.json
+    bitcoinDifferentDatesEndpoint: https://api.coindesk.com/v1/bpi/historical/close.json
+    connectionTimeout: 5000 #millisenconds
+    socketTimeout: 5000 #milliseconds
+    successMessage: Success
+    errorMessage: Failed to Fetch Rates
+debug: false
